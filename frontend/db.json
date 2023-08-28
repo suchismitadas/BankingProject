@@ -1,0 +1,96 @@
+{
+  "customer-details": [
+    {
+      "firstName": "Tushar",
+      "lastName": "Singhal",
+      "dob": "12-04-2000",
+      "aadhar": "1234 5678 6789 ",
+      "permanentAddress": "Hyderabad",
+      "mobileNumber": "8117876133",
+      "pan": "234rf345",
+      "occupation": "Job",
+      "id": 1,
+      "account": {
+        "type": "Savings",
+        "ifscCode": "fellas0001",
+        "accountNumber": "1234893",
+        "balance": "$900",
+        "status": "open"
+      }
+    },
+  
+      {
+        "firstName": "Aditya",
+        "lastName": "Singhal",
+        "dob": "12-04-2000",
+        "aadhar": "1234 5678 6789 ",
+        "permanentAddress": "Hyderabad",
+        "mobileNumber": "8117876133",
+        "pan": "234rf345",
+        "occupation": "Job",
+        "id": 2,
+        "account":[ {
+          "type": "Savings",
+          "ifscCode": "fellas0001",
+          "accountNumber": "1234893",
+          "balance": "$900",
+          "status": "open"
+        }
+      ]
+      }
+    ]
+  ,
+  "Account-Summary": [
+    {
+      "id": "1",
+      "type": "Savings",
+      "ifscCode": "fellas0001",
+      "accountNumber": "1234893",
+      "balance": "$900",
+      "status": "open"
+    }
+  ],
+  "History": [
+    {
+      "id": 1,
+      "date": "2023-08-11",
+      "type": "imps",
+      "fromAccount": 1,
+      "toAccount": 2,
+      "status": "complete"
+    },
+    {
+      "id": 1,
+      "date": "2023-08-21",
+      "type": "neft",
+      "fromAccount": 1,
+      "toAccount": 2,
+      "status": "complete"
+    },
+    {
+      "id": 1,
+      "date": "2023-05-11",
+      "type": "imps",
+      "fromAccount": 1,
+      "toAccount": 3,
+      "status": "complete"
+    },
+    {
+      "id": 1,
+      "date": "2022-08-11",
+      "type": "upi",
+      "fromAccount": 1,
+      "toAccount": 34,
+      "status": "complete"
+    },
+    {
+      "fromAccount": "123",
+      "toAccount": "432",
+      "Amount": "345",
+      "Remark": "drfc",
+      "type": "NEFT",
+      "date": "2023-08-22T09:18:22.534Z",
+      "id": 2
+    }
+  ]
+}
